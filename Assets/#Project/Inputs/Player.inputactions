@@ -25,27 +25,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Look",
-                    "type": "Value",
-                    "id": "a19d7d32-e973-49e2-b12c-a9a9c8027375",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Fire",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "1b96ed9e-f1e9-4f5e-96fb-fef7812302f9",
-                    "expectedControlType": "Button",
+                    "id": "40d461ec-b192-4c61-9c01-4098905edf8e",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "Fire",
                     "type": "Button",
-                    "id": "40d461ec-b192-4c61-9c01-4098905edf8e",
+                    "id": "1b96ed9e-f1e9-4f5e-96fb-fef7812302f9",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -59,6 +50,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "WallGrab",
+                    "type": "Button",
+                    "id": "07ac823b-56e8-471e-96c3-c69685c9f577",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "a19d7d32-e973-49e2-b12c-a9a9c8027375",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -334,6 +343,28 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Fire Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f3af8fc-e29f-43df-9f47-c74fcbca7bbb",
+                    "path": "<Keyboard>/#(E)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "WallGrab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1728c2f6-7869-452d-bbbd-7bcd8f995338",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "WallGrab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
