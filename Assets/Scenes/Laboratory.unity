@@ -1475,9 +1475,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4604850919332122032, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.43116355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604850919332122032, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.11153591
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857755618361717885, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.31184173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857755618361717885, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.04036069
+      objectReference: {fileID: 0}
     - target: {fileID: 6886215660442059795, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
       propertyPath: m_Name
       value: PlayerTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184764650987346182, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.608
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
