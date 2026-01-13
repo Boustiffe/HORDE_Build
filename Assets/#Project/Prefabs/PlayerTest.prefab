@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 3237397761072005932}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.567, y: 0.569, z: 0}
+  m_LocalPosition: {x: 0.608, y: 0.569, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -159,7 +159,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.05187495, y: -0.051751614}
+  m_Offset: {x: 0.11153591, y: -0.051751614}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -169,7 +169,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.2348726, y: 0.17936897}
+  m_Size: {x: 0.43116355, y: 0.17936897}
   m_EdgeRadius: 0
 --- !u!114 &643738256962334335
 MonoBehaviour:
@@ -360,7 +360,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0018761158, y: -0.051751614}
+  m_Offset: {x: -0.04036069, y: -0.051751614}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -370,7 +370,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.23487258, y: 0.17936897}
+  m_Size: {x: 0.31184173, y: 0.17936897}
   m_EdgeRadius: 0
 --- !u!114 &3841785451129889665
 MonoBehaviour:
@@ -604,14 +604,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9044531440748016274}
+      addedObject: {fileID: 3929984160196260531}
   m_SourcePrefab: {fileID: 100100000, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
 --- !u!1 &1696419509601439842 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
   m_PrefabInstance: {fileID: 3728327409016174870}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &9044531440748016274
+--- !u!114 &3929984160196260531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: c18097ed75e1665488e019ccc38b54dc, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: New action map
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!4 &5054350305796594062 stripped
