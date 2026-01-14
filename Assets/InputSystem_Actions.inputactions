@@ -233,6 +233,17 @@
                 },
                 {
                     "name": "",
+                    "id": "089962c2-79d6-45c0-a028-bf396ca341f6",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "d2615be6-f4b1-4265-8b25-2242a6c6e1f6",
                     "path": "<Keyboard>/e",
                     "interactions": "",
