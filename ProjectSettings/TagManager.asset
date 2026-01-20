@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Boss
   - Weapon
+  - Slash
   layers:
   - Default
   - TransparentFX
