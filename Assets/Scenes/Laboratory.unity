@@ -134,6 +134,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3534614998461876517, guid: 4c4b8169fec9b0f41a6a9164cdec52fb, type: 3}
   m_PrefabInstance: {fileID: 8139395743819269628}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &466182463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2050633686}
+    m_Modifications:
+    - target: {fileID: 4211764466330916105, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_Name
+      value: Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211764466330916105, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.225761
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0738
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+--- !u!4 &466182464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7069838977448579045, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+  m_PrefabInstance: {fileID: 466182463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &597883431 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3155374603757271379, guid: e7da579c7181998449ef1b0064c6e727, type: 3}
@@ -366,6 +436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"distance","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossTeleport","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerInputs","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.InputSystem.PlayerInput,
       Unity.InputSystem, Version=1.14.2.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"camera","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -629,6 +700,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 719157386}
+  - {fileID: 466182464}
   - {fileID: 161363702}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
