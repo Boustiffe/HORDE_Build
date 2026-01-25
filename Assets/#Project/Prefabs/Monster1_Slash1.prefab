@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9170408152832195418}
   - component: {fileID: 2462671709315786518}
   - component: {fileID: 127163754438062613}
-  - component: {fileID: -8406539439588372539}
+  - component: {fileID: 8552100206927148357}
   m_Layer: 0
   m_Name: Monster1_Slash1
   m_TagString: Slash
@@ -176,7 +176,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &-8406539439588372539
+--- !u!61 &8552100206927148357
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,7 +210,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0784688, y: 1.9028573}
+  m_Offset: {x: -0.05258596, y: 0.09429586}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49058378, y: 0.27165714}
@@ -220,5 +220,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 8.333333, y: 8.333333}
+  m_Size: {x: 1.5708857, y: 2.1475322}
   m_EdgeRadius: 0
