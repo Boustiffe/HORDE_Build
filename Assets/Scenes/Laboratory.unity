@@ -3046,7 +3046,8 @@ MonoBehaviour:
       Unity.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playerIsHere","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerHit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HP","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"bossIsHit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 597883431}
     - {fileID: 1819222100}
@@ -3900,6 +3901,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 20, y: 1}
   m_EdgeRadius: 0
+--- !u!212 &1492944899 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7613778272751543841, guid: 9d296278949b452429b4105c1e956475, type: 3}
+  m_PrefabInstance: {fileID: 7847612641889014206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1496573980
 GameObject:
   m_ObjectHideFlags: 0
@@ -79401,7 +79407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2218581058583433686, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 68.05
+      value: 67.56
       objectReference: {fileID: 0}
     - target: {fileID: 2218581058583433686, guid: 6d80bc15855070544b9655df9991ae1f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -79585,7 +79591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6035078030763534487, guid: 8f25f7cf930a63f4faa25ed41a239c75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 68.05
+      value: 67.56
       objectReference: {fileID: 0}
     - target: {fileID: 6035078030763534487, guid: 8f25f7cf930a63f4faa25ed41a239c75, type: 3}
       propertyPath: m_LocalPosition.y
@@ -79669,7 +79675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7273399961457360131, guid: 4aabc701e7196f645b42add19711378f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 68.05
+      value: 67.56
       objectReference: {fileID: 0}
     - target: {fileID: 7273399961457360131, guid: 4aabc701e7196f645b42add19711378f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -79726,11 +79732,12 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"nearLeftPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"slash","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"slashSpawner","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spriteBoss","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.SpriteRenderer,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 302671202542059912, guid: 9d296278949b452429b4105c1e956475, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 302671202542059912, guid: 9d296278949b452429b4105c1e956475, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -79748,6 +79755,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
       objectReference: {fileID: 1905470630}
+    - target: {fileID: 302671202542059912, guid: 9d296278949b452429b4105c1e956475, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1492944899}
     - target: {fileID: 3312060684787275466, guid: 9d296278949b452429b4105c1e956475, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.77
@@ -79868,7 +79879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5431280798682734398, guid: 9d296278949b452429b4105c1e956475, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5431280798682734398, guid: 9d296278949b452429b4105c1e956475, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
