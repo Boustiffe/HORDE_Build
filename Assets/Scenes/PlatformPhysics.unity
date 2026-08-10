@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 26492415}
   - component: {fileID: 26492413}
   - component: {fileID: 26492417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PLAYER
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 107640052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810946623}
   - component: {fileID: 810946624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +905,7 @@ Transform:
   m_GameObject: {fileID: 819926406}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.185, y: -1.362, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -982,7 +982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235586674}
   - component: {fileID: 1235586675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1197,7 +1197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407210160}
   - component: {fileID: 1407210159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Feets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1238,7 +1238,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0056367368, y: -0.5434599}
+  m_Offset: {x: -0.0056367517, y: -0.5149193}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1248,7 +1248,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9301044, y: 0.083170414}
+  m_Size: {x: 0.9301044, y: 0.026089191}
   m_EdgeRadius: 0
 --- !u!4 &1407210160
 Transform:
@@ -1259,7 +1259,7 @@ Transform:
   m_GameObject: {fileID: 1407210158}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1520,7 +1520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013023572}
   - component: {fileID: 2013023573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrabL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1598,7 +1598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051691785}
   - component: {fileID: 2051691786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrabR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
