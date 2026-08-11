@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1593583006681824268}
   - component: {fileID: 8547135610352896784}
   m_Layer: 0
-  m_Name: Avatar_Gun
+  m_Name: Player_Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
