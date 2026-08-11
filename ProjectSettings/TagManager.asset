@@ -11,6 +11,7 @@ TagManager:
   - Slash
   - Mouse
   - Start
+  - Gun
   layers:
   - Default
   - TransparentFX
