@@ -191,6 +191,7 @@ GameObject:
   - component: {fileID: 26492412}
   - component: {fileID: 26492411}
   - component: {fileID: 26492416}
+  - component: {fileID: 26492418}
   - component: {fileID: 26492415}
   - component: {fileID: 26492413}
   - component: {fileID: 26492417}
@@ -242,7 +243,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 810946623}
-  - {fileID: 2094543416}
+  - {fileID: 966661559}
   - {fileID: 107640052}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -350,6 +351,28 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: d5f6d115668e87f4b90369bfa14f54a2, type: 2}
+--- !u!95 &26492418
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26492409}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 67586c84dd4aa5d418cf0c2c5dde2d9e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &107640051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1642,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c14c531bc31814e429cb311c21c239b9, type: 3}
+--- !u!1 &966661558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 966661559}
+  - component: {fileID: 966661560}
+  m_Layer: 6
+  m_Name: Gun Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &966661559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966661558}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2094543416}
+  m_Father: {fileID: 26492412}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &966661560
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966661558}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f2e516e172ec3734e8d64735104ed055, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1165764117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3327,7 +3405,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 26492412}
+    m_TransformParent: {fileID: 966661559}
     m_Modifications:
     - target: {fileID: 1593583006681824268, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: _data._json
@@ -3342,7 +3420,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isLoaded","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerVelocity","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"buttonIsReleased","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"animator","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+        UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593583006681824268, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1593583006681824268, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -3356,6 +3440,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
       objectReference: {fileID: 1282745383}
+    - target: {fileID: 1593583006681824268, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 966661560}
     - target: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_Name
       value: Player_Gun
@@ -3366,7 +3454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4
+      value: -0.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3407,13 +3495,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2094543421}
   m_SourcePrefab: {fileID: 100100000, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
 --- !u!4 &2094543416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
   m_PrefabInstance: {fileID: 2094543415}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2094543421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334108714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a21575d01dd710d4b9c59400d2ee5269, type: 2}
 --- !u!1 &2141270107
 GameObject:
   m_ObjectHideFlags: 0
