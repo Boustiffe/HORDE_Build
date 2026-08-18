@@ -12,6 +12,7 @@ TagManager:
   - Mouse
   - Start
   - Gun
+  - Pointer
   layers:
   - Default
   - TransparentFX
