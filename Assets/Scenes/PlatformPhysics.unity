@@ -3523,9 +3523,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2110420945296373438, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_Name
       value: Player_Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192589678581110129, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087077719959038333, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_LocalPosition.x
