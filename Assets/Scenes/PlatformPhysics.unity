@@ -3531,6 +3531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 5959238403724646572, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 6192589678581110129, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_IsActive
       value: 1
