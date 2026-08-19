@@ -86,6 +86,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "BloodReload",
+                    "type": "Button",
+                    "id": "282f21bb-19cd-4b6f-be55-f8f3b2b52fcb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -383,6 +392,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "GunBlade",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4be388e3-c83d-41ee-8b57-2a6d8dd6e327",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BloodReload",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
