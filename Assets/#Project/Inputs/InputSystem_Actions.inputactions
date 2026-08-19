@@ -10,7 +10,7 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "351f2ccd-1f9f-44bf-9bec-d62ac5c5f408",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Analog",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -73,6 +73,15 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "42158d2e-eab0-4eed-9341-19ebfe3e9223",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GunBlade",
+                    "type": "Button",
+                    "id": "8ae85f97-ce83-4aa1-b94c-87e524de4243",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -363,6 +372,17 @@
                     "processors": "",
                     "groups": ";Gamepad",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8893c1dc-5289-4c73-9ff6-88d94a942af4",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GunBlade",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
