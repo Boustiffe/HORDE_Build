@@ -15,6 +15,7 @@ TagManager:
   - Pointer
   - Bullet
   - Enemi
+  - GunBlade
   layers:
   - Default
   - TransparentFX
