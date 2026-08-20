@@ -3580,9 +3580,17 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
       objectReference: {fileID: 966661560}
+    - target: {fileID: 1770780900636809584, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_Name
       value: Player_Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683175186888782131, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8087077719959038333, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_SortingOrder
@@ -3634,7 +3642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9008063396451323823, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
