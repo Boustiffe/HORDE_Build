@@ -3584,6 +3584,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 8087077719959038333, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_SortingOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8218794311664587429, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_SortingOrder
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
