@@ -16,6 +16,7 @@ TagManager:
   - Bullet
   - Enemi
   - GunBlade
+  - EnemiShield
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - UI
   - Player
   - Bullet
-  - 
+  - EnemiShield
   - 
   - 
   - 
