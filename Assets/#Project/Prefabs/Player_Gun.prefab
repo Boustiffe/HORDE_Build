@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 1655153138949108363}
   - component: {fileID: 8547135610352896784}
   - component: {fileID: 9109994953937338448}
-  - component: {fileID: 5682855235029564809}
   - component: {fileID: 4986172287533063162}
   - component: {fileID: 3941418401139897911}
   - component: {fileID: 3922952755401473317}
@@ -293,22 +292,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 0bf1360b7daa7214f99331f1321e30fe, type: 2}
---- !u!114 &5682855235029564809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2609636457984616820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: c6cd6e906e4350d45ae6f780d9f42b6a, type: 2}
 --- !u!114 &4986172287533063162
 MonoBehaviour:
   m_ObjectHideFlags: 0
