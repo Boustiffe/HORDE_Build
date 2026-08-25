@@ -17,6 +17,7 @@ TagManager:
   - Enemi
   - GunBlade
   - EnemiShield
+  - PlayerBody
   layers:
   - Default
   - TransparentFX
