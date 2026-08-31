@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
-  m_Name: Gun
+  m_Name: Gun Magazine State
   m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateGraphAsset
   _data:
     _json: '{"graph":{"title":null,"summary":null,"pan":{"x":373.0,"y":35.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Magazine
