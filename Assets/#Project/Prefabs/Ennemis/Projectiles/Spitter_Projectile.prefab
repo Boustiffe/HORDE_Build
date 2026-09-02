@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: -870642285823066181}
   - component: {fileID: -727073440133907957}
   - component: {fileID: -3668900767871842379}
+  - component: {fileID: 2036287588939168931}
   m_Layer: 14
   m_Name: Spitter_Projectile
-  m_TagString: Untagged
+  m_TagString: Enemi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,15 +174,17 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"distanceToTarget","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"player","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"direction","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"projectileSpeed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hitValue","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"hitValue","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"startPosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"targetPosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"time","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"timeMaxValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxHeight","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"duration","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHeight","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"duration","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"elapsedTime","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"projectileSpeed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"time","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"timeMaxValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"projectileHP","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"projectileMaxHP","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-3668900767871842379
@@ -200,3 +203,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: cd7256b24ce81864b98b202a62a12565, type: 2}
+--- !u!114 &2036287588939168931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4474064924259364283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1787c4c198ff0e0428888a9356b9a7fd, type: 2}
