@@ -157,11 +157,11 @@ GameObject:
   - component: {fileID: 5588541756196838967}
   - component: {fileID: 3645875748394038230}
   - component: {fileID: 1217130247117411535}
+  - component: {fileID: -6562588317622302959}
   - component: {fileID: 557037176326750778}
   - component: {fileID: 6367405721302645147}
   - component: {fileID: 2880062627678836667}
   - component: {fileID: 4800382792037445280}
-  - component: {fileID: -6562588317622302959}
   - component: {fileID: 6279903047439254669}
   m_Layer: 11
   m_Name: Enemi_Spitter
@@ -347,6 +347,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 10d5d7511d8b65140a0bf8c999b09ae5, type: 2}
+--- !u!114 &-6562588317622302959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840064938112481922}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 3e1b371ddec701141acf31c53e5f9dab, type: 2}
 --- !u!114 &557037176326750778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,22 +427,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: b8232c3222d0e8d40867014e90a949cf, type: 2}
---- !u!114 &-6562588317622302959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3840064938112481922}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 3e1b371ddec701141acf31c53e5f9dab, type: 2}
 --- !u!114 &6279903047439254669
 MonoBehaviour:
   m_ObjectHideFlags: 0
