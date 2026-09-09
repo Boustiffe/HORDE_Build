@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 7220608814682067748}
   - component: {fileID: 26603891587411134}
   m_Layer: 0
-  m_Name: Body
+  m_Name: Flyer_Body_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
