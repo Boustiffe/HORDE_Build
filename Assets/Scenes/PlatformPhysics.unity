@@ -965,7 +965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8798166677369399742, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2525,13 +2525,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3270592291033394315, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_Name
       value: Enemi_Spitter (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8798166677369399742, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10063,6 +10067,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
   m_PrefabInstance: {fileID: 2094543415}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2106817885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 59.478287
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3267298
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969310267708738317, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093097229804640460, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: m_Name
+      value: Enemi_Flyer (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
 --- !u!1 &2141270107
 GameObject:
   m_ObjectHideFlags: 0
@@ -10366,7 +10427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6269279323834990733, guid: 0ca8b4d138169ac4c991e7b247cc42be, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8656152757625957535, guid: 0ca8b4d138169ac4c991e7b247cc42be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10436,3 +10497,4 @@ SceneRoots:
   - {fileID: 280461312}
   - {fileID: 1113402365}
   - {fileID: 5751111383292638387}
+  - {fileID: 2106817885}
