@@ -353,7 +353,7 @@ Transform:
   m_GameObject: {fileID: 26492409}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.39, y: -2.51, z: 0}
+  m_LocalPosition: {x: 58.38, y: -2.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1471,7 +1471,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.39, y: -2.51, z: -10}
+  m_LocalPosition: {x: 58.38, y: -2.51, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2894,7 +2894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1082184116
 Transform:
   m_ObjectHideFlags: 0
@@ -9346,6 +9346,7 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"targetChecker","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"detectorIddle","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"detectorFocus","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"lineRenderer","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"flyerHP","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"flyerMaxHP","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"flyerSpeed","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -9363,7 +9364,7 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isFloating","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isShooting","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"whoIsTheTarget","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"waypointsList","value":{"$content":[2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"waypointsList","value":{"$content":[3,4],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"index","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -9377,28 +9378,29 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"facingPlayerTiming","value":{"$content":0.2,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"lastDirection","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"actualDirection","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"shootPosition","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"projectile","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"shootPosition","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"projectile","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"shootDirection","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[2]'
-      value: 
-      objectReference: {fileID: 2095989657}
     - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
-      objectReference: {fileID: 1185277996}
+      objectReference: {fileID: 2095989657}
     - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[4]'
       value: 
-      objectReference: {fileID: 306640493}
+      objectReference: {fileID: 1185277996}
     - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[5]'
+      value: 
+      objectReference: {fileID: 306640493}
+    - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[6]'
       value: 
       objectReference: {fileID: 3679829658739545464, guid: e43a0a1af66602c44865d25f8ebdd702, type: 3}
     m_RemovedComponents: []
@@ -10871,7 +10873,7 @@ Transform:
   m_GameObject: {fileID: 2141270107}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.39, y: -2.51, z: -10}
+  m_LocalPosition: {x: 58.38, y: -2.51, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
