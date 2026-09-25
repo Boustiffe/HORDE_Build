@@ -16284,7 +16284,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1230149069145914470, guid: 0ca8b4d138169ac4c991e7b247cc42be, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5702359107896647332, guid: 0ca8b4d138169ac4c991e7b247cc42be, type: 3}
       propertyPath: _data._json
