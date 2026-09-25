@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6837354303467155483}
   - component: {fileID: 3942634013735951532}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Body
   m_TagString: Enemi
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850256279345217864}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -66,7 +66,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0012683868, y: 0.00000011920929}
+  m_Offset: {x: -0.00049209595, y: 0.00000011920929}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -76,7 +76,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.52134323, y: 0.51719356}
+  m_Size: {x: 0.5042496, y: 0.50476885}
   m_EdgeRadius: 0
 --- !u!1 &1156900558030390179
 GameObject:
@@ -249,11 +249,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0012683868, y: 0.0019466877}
+  m_Offset: {x: -0.0028247833, y: -0.001159519}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -263,7 +263,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.52134323, y: 0.5366616}
+  m_Size: {x: 0.524456, y: 0.5304492}
   m_EdgeRadius: 0
 --- !u!114 &761903664868992421
 MonoBehaviour:
@@ -758,7 +758,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.13129333, y: 0}
+  m_Offset: {x: -0.13129333, y: -0.0007765889}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -768,7 +768,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.2590198, y: 0.5171938}
+  m_Size: {x: 0.2590198, y: 0.506322}
   m_EdgeRadius: 0
 --- !u!1 &7956371363902206071
 GameObject:
