@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Get Distance Between Two Objects
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"In","label":"In","summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Out","label":"Out","summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Game
+      Object 1","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Game
+      Object 2","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.Single","key":"Distance","label":null,"summary":null,"hideLabel":false}],"title":"Get
+      Distance Between Two Objects","summary":null,"pan":{"x":320.2063,"y":251.3016},"zoom":0.6999999,"elements":[{"defaultValues":{},"position":{"x":-250.0,"y":-30.0},"guid":"5285cfcb-b6a2-43a6-a08c-bd279b26b3bb","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"14"},{"defaultValues":{},"position":{"x":605.0,"y":-30.0},"guid":"cb5ea023-e7fa-418a-9df8-73a0a51a7969","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"16"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":57.0,"y":197.0},"guid":"3fcf6fb0-27db-4f73-84f5-98ee80dc7fcb","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"18"},{"defaultValues":{},"position":{"x":289.0,"y":100.0},"guid":"11f68760-1b75-4ae3-8cf1-9460becac9ed","$version":"A","$type":"Unity.VisualScripting.Vector3Distance","$id":"21"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":59.0,"y":101.0},"guid":"88f04b4b-8a95-400d-8bbf-22db680bec17","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"23"},{"sourceUnit":{"$ref":"14"},"sourceKey":"In","destinationUnit":{"$ref":"16"},"destinationKey":"Out","guid":"63529f38-e605-4ba7-90ad-37d6eba06d00","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"b","guid":"077f80a7-dcca-4591-a5ed-b64b575adbd7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"a","guid":"ebd029bc-a7a3-4cac-8b96-1ad392383e21","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"distance","destinationUnit":{"$ref":"16"},"destinationKey":"Distance","guid":"6c102fa7-6b80-436f-a1b6-8797b022406d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Game
+      Object 1","destinationUnit":{"$ref":"23"},"destinationKey":"target","guid":"c5e48c3d-42c9-429c-bedc-7f4fe3ccd630","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Game
+      Object 2","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"d9b7f8c3-84c7-4d99-a1de-e5623f9deee9","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
