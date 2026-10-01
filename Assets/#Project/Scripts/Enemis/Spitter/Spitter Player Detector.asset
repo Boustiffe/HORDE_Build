@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Spitter Player Detector
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":19.0,"y":-62.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-105.0,"y":-154.0},"guid":"2a709bb0-33dd-4a5b-8e00-4b442009d24c","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"detectorPatrol","$type":"System.String"},"object":null},"position":{"x":-384.0,"y":-158.0},"guid":"4ae50d97-db5c-44ef-9de1-1f6b1e0c0e9a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"detectorFocus","$type":"System.String"},"object":null},"position":{"x":-387.0,"y":-37.0},"guid":"9ddd3276-c6c5-4860-8284-63a10a7a9128","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"looseFocusTime","$type":"System.String"},"object":null},"position":{"x":-397.0,"y":84.0},"guid":"4034ec95-bb1d-45ac-810a-9131396d6b3a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"Focus
+      Detector","guid":"1570e33b-13b9-4cff-a6f9-65423f51aa39","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"Focus
+      Zone","guid":"0a1ac0dc-a336-4b2c-83da-69725cbb61d7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"LooseFocusTime","guid":"f6dcf1aa-56ce-49f7-820c-ae339f9f87d8","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b56c02bdc4a5aea40bd51ba8c81666ed, type: 2}
