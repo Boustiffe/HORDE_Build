@@ -15506,6 +15506,14 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[6]'
       value: 
       objectReference: {fileID: 669830380}
+    - target: {fileID: 1474401088911424084, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672119184195438818, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 1672119184195438818, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -15513,6 +15521,10 @@ PrefabInstance:
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_Name
       value: Enemi_Spitter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022984783873265388, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5694981955530186695, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: _data._json
@@ -17076,6 +17088,14 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[6]'
       value: 
       objectReference: {fileID: 175719295}
+    - target: {fileID: 1474401088911424084, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672119184195438818, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 1672119184195438818, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -17083,6 +17103,10 @@ PrefabInstance:
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_Name
       value: Enemi_Spitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022984783873265388, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5694981955530186695, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: _data._json
