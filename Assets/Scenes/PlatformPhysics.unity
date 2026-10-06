@@ -1309,9 +1309,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 395324656}
+  - component: {fileID: 395324657}
   - component: {fileID: 395324659}
   - component: {fileID: 395324658}
-  - component: {fileID: 395324657}
+  - component: {fileID: 395324660}
   m_Layer: 0
   m_Name: Branching Alert
   m_TagString: Untagged
@@ -1483,6 +1484,22 @@ MonoBehaviour:
     - {fileID: 1132153204}
     - {fileID: 1450980076}
     - {fileID: 395324655}
+--- !u!114 &395324660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395324655}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 3b3e850d65be13a4cae45c2abd54c56e, type: 2}
 --- !u!1001 &455633168
 PrefabInstance:
   m_ObjectHideFlags: 0
