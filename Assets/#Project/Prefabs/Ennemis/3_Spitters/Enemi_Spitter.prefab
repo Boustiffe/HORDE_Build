@@ -262,9 +262,9 @@ GameObject:
   - component: {fileID: 2880062627678836667}
   - component: {fileID: 5621019198745315222}
   - component: {fileID: 557037176326750778}
+  - component: {fileID: 5438955581075806945}
   - component: {fileID: 5694981955530186695}
   - component: {fileID: 6367405721302645147}
-  - component: {fileID: 5438955581075806945}
   m_Layer: 11
   m_Name: Enemi_Spitter
   m_TagString: Enemi
@@ -544,6 +544,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: c351c2c98ac9c8845b230048dd293735, type: 2}
+--- !u!114 &5438955581075806945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840064938112481922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c32c217d0f3e3f44a945bd33e1c1d333, type: 2}
 --- !u!114 &5694981955530186695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,22 +592,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 2a76fc90b8a782447b5fa3c7de36be63, type: 2}
---- !u!114 &5438955581075806945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3840064938112481922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: c32c217d0f3e3f44a945bd33e1c1d333, type: 2}
 --- !u!1 &4022984783873265388
 GameObject:
   m_ObjectHideFlags: 0
