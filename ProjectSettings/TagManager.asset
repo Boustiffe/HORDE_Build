@@ -19,6 +19,7 @@ TagManager:
   - EnemiShield
   - PlayerBody
   - SpitterBack
+  - GroundWall
   layers:
   - Default
   - TransparentFX
