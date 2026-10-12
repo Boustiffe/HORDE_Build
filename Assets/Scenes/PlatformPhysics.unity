@@ -22734,7 +22734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &966661559
 Transform:
   m_ObjectHideFlags: 0
@@ -22744,7 +22744,7 @@ Transform:
   m_GameObject: {fileID: 966661558}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.099, y: 0.062, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42180,6 +42180,14 @@ PrefabInstance:
     - target: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_Name
       value: Player_Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649611860017952865, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649611860017952865, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.272
       objectReference: {fileID: 0}
     - target: {fileID: 7194711574311991133, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_SortingOrder
