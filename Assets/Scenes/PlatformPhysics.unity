@@ -345,7 +345,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 26492409}
-    - {fileID: 810946622}
+    - {fileID: 1335475086}
     - {fileID: 1334108714}
     - {fileID: 946130529}
     - {fileID: 1235586673}
@@ -28359,7 +28359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335475087}
   m_Layer: 6
-  m_Name: Sprites
+  m_Name: P_Sprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42180,18 +42180,6 @@ PrefabInstance:
     - target: {fileID: 2609636457984616820, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_Name
       value: Player_Gun
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649611860017952865, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.081
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649611860017952865, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.272
-      objectReference: {fileID: 0}
-    - target: {fileID: 7194711574311991133, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8473811684021395608, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
       propertyPath: m_LocalPosition.x
