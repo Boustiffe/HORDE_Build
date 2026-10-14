@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 10_Falling
+  m_Name: 10_DashInAir
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: f9d83d8346c50cc45bd3766d2bf8324f, type: 3}
+      value: {fileID: 21300000, guid: 65084ac3d2d68a044a9c4a93161268ab, type: 3}
     - time: 1
-      value: {fileID: 21300000, guid: f9d83d8346c50cc45bd3766d2bf8324f, type: 3}
+      value: {fileID: 21300000, guid: 65084ac3d2d68a044a9c4a93161268ab, type: 3}
     attribute: m_Sprite
     path: P_Sprites/Player_Body_Sprite
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: f9d83d8346c50cc45bd3766d2bf8324f, type: 3}
-    - {fileID: 21300000, guid: f9d83d8346c50cc45bd3766d2bf8324f, type: 3}
+    - {fileID: 21300000, guid: 65084ac3d2d68a044a9c4a93161268ab, type: 3}
+    - {fileID: 21300000, guid: 65084ac3d2d68a044a9c4a93161268ab, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
