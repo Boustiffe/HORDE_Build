@@ -951,7 +951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &395324656
 Transform:
   m_ObjectHideFlags: 0
@@ -961,7 +961,7 @@ Transform:
   m_GameObject: {fileID: 395324655}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.9391, y: 2.6928456, z: 0}
+  m_LocalPosition: {x: 119.99, y: -0.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1068,8 +1068,8 @@ LineRenderer:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
+    numCornerVertices: 4
+    numCapVertices: 4
     alignment: 0
     textureMode: 0
     textureScale: {x: 1, y: 1}
@@ -17396,18 +17396,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spitters_SpawnPoint (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2298250632984534870, guid: aaf84b174c4d1fc4093b9ae171f7bf52, type: 3}
-      propertyPath: m_Color.b
-      value: 0.18867922
-      objectReference: {fileID: 0}
-    - target: {fileID: 2298250632984534870, guid: aaf84b174c4d1fc4093b9ae171f7bf52, type: 3}
-      propertyPath: m_Color.g
-      value: 0.18867922
-      objectReference: {fileID: 0}
-    - target: {fileID: 2298250632984534870, guid: aaf84b174c4d1fc4093b9ae171f7bf52, type: 3}
-      propertyPath: m_Color.r
-      value: 0.18867922
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24215,7 +24203,7 @@ Transform:
   m_GameObject: {fileID: 1450980076}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.06, y: 0, z: 0}
+  m_LocalPosition: {x: 11.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
