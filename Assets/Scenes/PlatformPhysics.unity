@@ -38369,17 +38369,9 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[9]'
       value: 
       objectReference: {fileID: 1358238746}
-    - target: {fileID: 3270592291033394315, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_Name
       value: Enemi_Spitter
-      objectReference: {fileID: 0}
-    - target: {fileID: 8750768650176192044, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8798166677369399742, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_LocalPosition.x
