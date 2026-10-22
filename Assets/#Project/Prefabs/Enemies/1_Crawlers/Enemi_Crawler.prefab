@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 3399651205984176670}
   - component: {fileID: 8175628425899832744}
   - component: {fileID: 2190437354335739689}
+  - component: {fileID: 5911863216577761725}
   - component: {fileID: 8219588090319449335}
   m_Layer: 10
   m_Name: Enemi_Crawler
@@ -422,6 +423,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 73264b9fb69d53c4e924ba2f38c7b92c, type: 2}
+--- !u!114 &5911863216577761725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382312146867928119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 760dd25a50cb9ab448747b6b8233dbf9, type: 2}
 --- !u!82 &8219588090319449335
 AudioSource:
   m_ObjectHideFlags: 0
