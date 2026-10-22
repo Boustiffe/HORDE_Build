@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3521019611697325547}
   m_Layer: 16
-  m_Name: SpawnerCrawler_Point
+  m_Name: Sp_SpawnerPoint
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
