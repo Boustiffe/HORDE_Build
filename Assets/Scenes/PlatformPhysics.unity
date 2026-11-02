@@ -42961,10 +42961,30 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[12]'
       value: 
       objectReference: {fileID: 1875258038}
+    - target: {fileID: 3344340300241980889, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.42453766
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344340300241980889, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5520256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344340300241980889, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.031879425
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344340300241980889, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0020344555
+      objectReference: {fileID: 0}
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_Name
       value: Enemi_Spitter
       objectReference: {fileID: 0}
+    - target: {fileID: 8379211415719034412, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4569424982495063579, guid: 2c4d7b94a5dbf04448895e72046cebed, type: 3}
     - target: {fileID: 8798166677369399742, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88
