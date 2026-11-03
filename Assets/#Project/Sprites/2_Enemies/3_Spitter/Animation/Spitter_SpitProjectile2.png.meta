@@ -1,28 +1,40 @@
 fileFormatVersion: 2
-guid: 608f20420830c774496d25bd5c8ffe2c
+guid: a72bc7b472330044ba8bfaecc7290c05
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2149707512128257547
-    second: Spitter_SpitProjectilet_0
+      213: 5232904357769551509
+    second: Spitter_SpitProjectile2_0
   - first:
-      213: 1865295084619162549
-    second: Spitter_SpitProjectilet_1
+      213: 2056203703617591824
+    second: Spitter_SpitProjectile2_1
   - first:
-      213: 8331914770847409463
-    second: Spitter_SpitProjectilet_2
+      213: 5091633937391066000
+    second: Spitter_SpitProjectile2_2
   - first:
-      213: 9057476423283747698
-    second: Spitter_SpitProjectilet_3
+      213: 6729022537172076757
+    second: Spitter_SpitProjectile2_3
   - first:
-      213: 4346968274425877453
-    second: Spitter_SpitProjectilet_4
+      213: 1545539393993665546
+    second: Spitter_SpitProjectile2_4
   - first:
-      213: -3603170413408943212
-    second: Spitter_SpitProjectilet_5
+      213: 4690024989962922886
+    second: Spitter_SpitProjectile2_5
   - first:
-      213: 1915523766401131543
-    second: Spitter_SpitProjectilet_6
+      213: 1778688473839717059
+    second: Spitter_SpitProjectile2_6
+  - first:
+      213: 4877392026736465879
+    second: Spitter_SpitProjectile2_7
+  - first:
+      213: 2266207371712796427
+    second: Spitter_SpitProjectile2_8
+  - first:
+      213: -2050387097642677571
+    second: Spitter_SpitProjectile2_9
+  - first:
+      213: -4717694723381135242
+    second: Spitter_SpitProjectile2_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_0
+      name: Spitter_SpitProjectile2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -133,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f14b984864ba22e0800000000000000
-      internalID: -2149707512128257547
+      spriteID: 59e927cc9c20f9840800000000000000
+      internalID: 5232904357769551509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_1
+      name: Spitter_SpitProjectile2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -155,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b3e1082ffbd2e910800000000000000
-      internalID: 1865295084619162549
+      spriteID: 01a18fbcf5a198c10800000000000000
+      internalID: 2056203703617591824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_2
+      name: Spitter_SpitProjectile2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -177,14 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 735a037f658e0a370800000000000000
-      internalID: 8331914770847409463
+      spriteID: 09b9484e61e19a640800000000000000
+      internalID: 5091633937391066000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_3
+      name: Spitter_SpitProjectile2_3
       rect:
         serializedVersion: 2
         x: 96
@@ -199,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27bad4381de92bd70800000000000000
-      internalID: 9057476423283747698
+      spriteID: 5d84dbd785a426d50800000000000000
+      internalID: 6729022537172076757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_4
+      name: Spitter_SpitProjectile2_4
       rect:
         serializedVersion: 2
         x: 128
@@ -221,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc31c074d98835c30800000000000000
-      internalID: 4346968274425877453
+      spriteID: a0c6d55e3ebd27510800000000000000
+      internalID: 1545539393993665546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_5
+      name: Spitter_SpitProjectile2_5
       rect:
         serializedVersion: 2
         x: 160
@@ -243,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49300937997fefdc0800000000000000
-      internalID: -3603170413408943212
+      spriteID: 68be17a21e0561140800000000000000
+      internalID: 4690024989962922886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spitter_SpitProjectilet_6
+      name: Spitter_SpitProjectile2_6
       rect:
         serializedVersion: 2
         x: 192
@@ -265,8 +277,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 714682777be459a10800000000000000
-      internalID: 1915523766401131543
+      spriteID: 3ca4c493ebb2fa810800000000000000
+      internalID: 1778688473839717059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spitter_SpitProjectile2_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d713ffe43affa340800000000000000
+      internalID: 4877392026736465879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spitter_SpitProjectile2_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b071052099f237f10800000000000000
+      internalID: 2266207371712796427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spitter_SpitProjectile2_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac6f05ccf8b83e0800000000000000
+      internalID: -2050387097642677571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spitter_SpitProjectile2_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678f12ef4a1678eb0800000000000000
+      internalID: -4717694723381135242
       vertices: []
       indices: 
       edges: []
@@ -275,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0e4f26680a83bca46bcfc4ffd9d8bece
+    spriteID: 287697f713deb4c46a8fefe105a76c02
     internalID: 0
     vertices: []
     indices: 
@@ -285,15 +385,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Spitter_SpitProjectilet_0: -2149707512128257547
-      Spitter_SpitProjectilet_1: 1865295084619162549
-      Spitter_SpitProjectilet_2: 8331914770847409463
-      Spitter_SpitProjectilet_3: 9057476423283747698
-      Spitter_SpitProjectilet_4: 4346968274425877453
-      Spitter_SpitProjectilet_5: -3603170413408943212
-      Spitter_SpitProjectilet_6: 1915523766401131543
+      Spitter_SpitProjectile2_0: 5232904357769551509
+      Spitter_SpitProjectile2_1: 2056203703617591824
+      Spitter_SpitProjectile2_10: -4717694723381135242
+      Spitter_SpitProjectile2_2: 5091633937391066000
+      Spitter_SpitProjectile2_3: 6729022537172076757
+      Spitter_SpitProjectile2_4: 1545539393993665546
+      Spitter_SpitProjectile2_5: 4690024989962922886
+      Spitter_SpitProjectile2_6: 1778688473839717059
+      Spitter_SpitProjectile2_7: 4877392026736465879
+      Spitter_SpitProjectile2_8: 2266207371712796427
+      Spitter_SpitProjectile2_9: -2050387097642677571
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
