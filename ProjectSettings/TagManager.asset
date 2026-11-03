@@ -50,10 +50,13 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Background
   - Wall
   - Ground
   m_SortingLayers:
+  - name: Background
+    uniqueID: 20257653
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
