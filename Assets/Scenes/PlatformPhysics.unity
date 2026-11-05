@@ -20933,7 +20933,11 @@ PrefabInstance:
     - target: {fileID: 4560608095013740046, guid: 2edb3e68a651eb44896ee850ea97ba00, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b949b0ba2381a1742a2a0d6648e1d532, type: 3}
+      objectReference: {fileID: 21300000, guid: 1292d1ee1870cfd4cac39709f85a9d21, type: 3}
+    - target: {fileID: 4560608095013740046, guid: 2edb3e68a651eb44896ee850ea97ba00, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6823188977543737706, guid: 2edb3e68a651eb44896ee850ea97ba00, type: 3}
       propertyPath: m_Name
       value: Roots
