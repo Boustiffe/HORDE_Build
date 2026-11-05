@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 24bdae6318a7fc14f96886519bb7f2e0, type: 3}
+      value: {fileID: 21300000, guid: fe1599017c1a4c542b25f871117c8fc3, type: 3}
     - time: 1
-      value: {fileID: 21300000, guid: 24bdae6318a7fc14f96886519bb7f2e0, type: 3}
+      value: {fileID: 21300000, guid: fe1599017c1a4c542b25f871117c8fc3, type: 3}
     attribute: m_Sprite
     path: Player_Gun
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 24bdae6318a7fc14f96886519bb7f2e0, type: 3}
-    - {fileID: 21300000, guid: 24bdae6318a7fc14f96886519bb7f2e0, type: 3}
+    - {fileID: 21300000, guid: fe1599017c1a4c542b25f871117c8fc3, type: 3}
+    - {fileID: 21300000, guid: fe1599017c1a4c542b25f871117c8fc3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
