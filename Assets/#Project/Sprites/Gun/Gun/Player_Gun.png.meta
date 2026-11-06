@@ -103,12 +103,12 @@ TextureImporter:
       name: Player_Gun 1_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 9
-        width: 22
-        height: 10
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 9
-      pivot: {x: 0.1820735, y: 0.49921435}
+      pivot: {x: 0.28196064, y: 0.43587852}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
