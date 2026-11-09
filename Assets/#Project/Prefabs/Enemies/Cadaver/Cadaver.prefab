@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8333201482665713652}
   - component: {fileID: 4361345530043928616}
   - component: {fileID: 3253927327881583620}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cadaver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 2716412931018061490}
   - component: {fileID: 2065505780460606991}
   - component: {fileID: 5180002630478355254}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Limbs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5822503692599989008}
   - component: {fileID: 6826127780346627654}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cadaver_Sprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}

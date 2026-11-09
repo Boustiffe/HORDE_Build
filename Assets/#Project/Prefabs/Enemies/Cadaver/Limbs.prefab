@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3017068403392031095}
   - component: {fileID: 1208722742631063119}
   - component: {fileID: 8451338593121884003}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Limbs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5084398757200335174}
   - component: {fileID: 5000345895966812038}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Limbs_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
