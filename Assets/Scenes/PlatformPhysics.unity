@@ -40268,6 +40268,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
+--- !u!1 &1654723641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 232601665834691961, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+  m_PrefabInstance: {fileID: 7492235366176863209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661721145
 GameObject:
   m_ObjectHideFlags: 0
@@ -42287,7 +42292,7 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"distanceValue","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"distanceToChoose","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"theChosen","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"idealNumberOfCrawlers","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"idealNumberOfCrawlers","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spittingTimeCooldown","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"distanceToGo","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isSearchingNewSpawnPoint","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
@@ -42459,6 +42464,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 175719295}
     - target: {fileID: 761903664868992421, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[7]'
+      value: 
+      objectReference: {fileID: 1654723641}
+    - target: {fileID: 761903664868992421, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[8]'
       value: 
       objectReference: {fileID: 600403240}
@@ -42481,10 +42490,6 @@ PrefabInstance:
     - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_Name
       value: Enemi_Spitter
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840064938112481922, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8798166677369399742, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
       propertyPath: m_LocalPosition.x
