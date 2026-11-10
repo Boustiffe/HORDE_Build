@@ -18784,7 +18784,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!19719996 &565202681
 TilemapCollider2D:
@@ -28495,7 +28495,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!483693784 &1489205070
 TilemapRenderer:
@@ -42267,6 +42267,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748687527440106410, guid: 428ac6c06b26f4245b0848f0b5e3ec26, type: 3}
+      propertyPath: m_Size.x
+      value: 20.411224
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748687527440106410, guid: 428ac6c06b26f4245b0848f0b5e3ec26, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.7470474
+      objectReference: {fileID: 0}
     - target: {fileID: 5702359107896647332, guid: 428ac6c06b26f4245b0848f0b5e3ec26, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -42344,6 +42352,10 @@ PrefabInstance:
     - target: {fileID: 6269279323834990733, guid: 428ac6c06b26f4245b0848f0b5e3ec26, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629109892264633058, guid: 428ac6c06b26f4245b0848f0b5e3ec26, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8656152757625957535, guid: 428ac6c06b26f4245b0848f0b5e3ec26, type: 3}
       propertyPath: m_LocalPosition.x
