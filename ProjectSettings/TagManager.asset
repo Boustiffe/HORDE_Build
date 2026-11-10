@@ -20,6 +20,7 @@ TagManager:
   - PlayerBody
   - SpitterBack
   - GroundWall
+  - SiblingDetector
   - CrawlerBack
   layers:
   - Default
