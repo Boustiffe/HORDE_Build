@@ -52,7 +52,6 @@ GameObject:
   - component: {fileID: -2048196680138121155}
   - component: {fileID: 3040153664985663501}
   - component: {fileID: -5609119543195186054}
-  - component: {fileID: 3399651205984176670}
   - component: {fileID: 8175628425899832744}
   - component: {fileID: 5911863216577761725}
   - component: {fileID: 8219588090319449335}
@@ -377,22 +376,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: c1daae72b763a2040be37ec8b19f6d45, type: 2}
---- !u!114 &3399651205984176670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382312146867928119}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: cc120b33f0a7ef3498a72900adf0d1f6, type: 2}
 --- !u!114 &8175628425899832744
 MonoBehaviour:
   m_ObjectHideFlags: 0
