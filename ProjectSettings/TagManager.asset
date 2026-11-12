@@ -21,7 +21,7 @@ TagManager:
   - SpitterBack
   - GroundWall
   - SiblingDetector
-  - CrawlerBack
+  - Crawler
   layers:
   - Default
   - TransparentFX
