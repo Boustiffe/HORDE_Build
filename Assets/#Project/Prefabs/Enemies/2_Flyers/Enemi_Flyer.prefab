@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7392490636191338833
 Transform:
   m_ObjectHideFlags: 0
@@ -117,8 +117,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 9108942032552730305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -169,8 +169,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.5849056, g: 0.5399009, b: 0.16278034, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5187ffa8a175dee468ba5b72dc456872, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -259,12 +259,13 @@ GameObject:
   - component: {fileID: 2969310267708738317}
   - component: {fileID: 1949586821418499895}
   - component: {fileID: 8936797343527761467}
+  - component: {fileID: 8955069343244467054}
   - component: {fileID: 6615994351737577605}
+  - component: {fileID: 246336306621737287}
   - component: {fileID: -3904690031048430517}
   - component: {fileID: 42617552554674167}
   - component: {fileID: -6809410571630917216}
   - component: {fileID: 7113608213564559605}
-  - component: {fileID: 246336306621737287}
   - component: {fileID: 8808709390340030612}
   - component: {fileID: 289087342230633280}
   - component: {fileID: 6701219969446348851}
@@ -359,6 +360,28 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0014801025, y: 0}
   m_Radius: 0.2972641
+--- !u!95 &8955069343244467054
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3093097229804640460}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30831c2cc2697b5428671a675c1ae77b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &6615994351737577605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +462,22 @@ MonoBehaviour:
     - {fileID: 4936118986717366152}
     - {fileID: 3190157855024824119}
     - {fileID: 3679829658739545464, guid: e43a0a1af66602c44865d25f8ebdd702, type: 3}
+--- !u!114 &246336306621737287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3093097229804640460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 84df83d93ad837a419f933b1a581b110, type: 2}
 --- !u!114 &-3904690031048430517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,22 +542,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: ec49bdde452c4754daef369f8b0a198b, type: 2}
---- !u!114 &246336306621737287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3093097229804640460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 84df83d93ad837a419f933b1a581b110, type: 2}
 --- !u!114 &8808709390340030612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -905,7 +928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1080257190917375308
 Transform:
   m_ObjectHideFlags: 0
