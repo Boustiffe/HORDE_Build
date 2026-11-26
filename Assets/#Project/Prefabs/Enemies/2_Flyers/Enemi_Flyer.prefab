@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 289087342230633280}
   - component: {fileID: 6701219969446348851}
   - component: {fileID: 8052350409344820658}
+  - component: {fileID: 555328510395719784}
   m_Layer: 15
   m_Name: Enemi_Flyer
   m_TagString: Enemi
@@ -516,6 +517,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8e39be0a673b11f48bb0fe9e7cf416f1, type: 2}
+--- !u!114 &555328510395719784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3093097229804640460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 238d813b2cec399469e009434af949fe, type: 2}
 --- !u!1 &3190157855024824119
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2154568047952480231
 Transform:
   m_ObjectHideFlags: 0
