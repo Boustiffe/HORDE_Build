@@ -30380,10 +30380,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemi_Flyer
       objectReference: {fileID: 0}
-    - target: {fileID: 4936118986717366152, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6615994351737577605, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -30474,10 +30470,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3093097229804640460, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1965717991}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
 --- !u!1 &1654723641 stripped
 GameObject:
@@ -30861,27 +30854,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7316567690209733573, guid: df0bb51fe6d1d054f8c458967f6fb22f, type: 3}
   m_PrefabInstance: {fileID: 7492235366176863209}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1965717976 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093097229804640460, guid: 936e8cce6de9e2c4a80cc0ca8d14a84f, type: 3}
-  m_PrefabInstance: {fileID: 1647552853}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1965717991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965717976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 238d813b2cec399469e009434af949fe, type: 2}
 --- !u!1 &2012449022 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2009724663121449993, guid: 11fa327f238e1ef498118bd0e3952604, type: 3}
