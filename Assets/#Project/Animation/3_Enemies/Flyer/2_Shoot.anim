@@ -101,13 +101,13 @@ AnimationClip:
       value: {fileID: -7973053274589228257, guid: 0392aeba165ac0b4ebffca84b705ee50, type: 3}
     - time: 1.4666667
       value: {fileID: -6350892640942339203, guid: 0392aeba165ac0b4ebffca84b705ee50, type: 3}
-    - time: 1.55
+    - time: 1.5
       value: {fileID: 7337676439503624447, guid: 0392aeba165ac0b4ebffca84b705ee50, type: 3}
-    - time: 1.6333333
+    - time: 1.5833334
       value: {fileID: 1149896516220607639, guid: 0392aeba165ac0b4ebffca84b705ee50, type: 3}
-    - time: 1.7166667
+    - time: 1.6666666
       value: {fileID: -8314887352069082183, guid: 0392aeba165ac0b4ebffca84b705ee50, type: 3}
-    - time: 1.8
+    - time: 1.75
       value: {fileID: -8314887352069082183, guid: 0392aeba165ac0b4ebffca84b705ee50, type: 3}
     attribute: m_Sprite
     path: Fl_Sprites/Flyer_Body_Sprite
@@ -164,7 +164,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.8166666
+    m_StopTime: 1.7666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

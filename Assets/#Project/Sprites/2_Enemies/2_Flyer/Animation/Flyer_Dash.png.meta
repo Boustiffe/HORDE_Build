@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c99cac1a38f31324c9b60b3f41985f36
+guid: 6cddc5915aced514abb68e8287c5b905
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 3921660463206953597
     second: Flyer_Dash_4
+  - first:
+      213: -9000267011246200163
+    second: Flyer_Dash_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -221,11 +224,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Flyer_Dash_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ae007b6d0a81380800000000000000
+      internalID: -9000267011246200163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e2ce0dfcd97d0d40b557a3aa692de78
+    spriteID: fd21563f359aee04a8b8ece4ac6ac54f
     internalID: 0
     vertices: []
     indices: 
@@ -235,13 +260,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Flyer_Dash_0: -681378735234905813
       Flyer_Dash_1: 6308563248300878716
       Flyer_Dash_2: -8035339172453998612
       Flyer_Dash_3: 2460132920209401283
       Flyer_Dash_4: 3921660463206953597
+      Flyer_Dash_5: -9000267011246200163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
